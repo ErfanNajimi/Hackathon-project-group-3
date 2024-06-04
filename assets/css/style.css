@@ -1,3 +1,4 @@
+
 /* featured section */
 
 #features-container h2 {
@@ -63,3 +64,51 @@
         background-color: #5C80BC;
     }
 }
+
+/* ---------- General Styles ---------- */
+
+
+/* ---------- Colors ---------- */
+
+
+/* ---------- Nav Bar ---------- */
+
+
+
+.navbar {
+    margin-top: auto;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    color: blue;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #000;
+}
+
+
+/* ----------Hero Image -------*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.png") no-repeat center center/cover;
+}
+
+/* ---------- Buttons ---------- */
+
+
+
+/* ---------- Footer ---------- */
+
+
+
+/* ---------- Guide Section ---------- */
+#guide {
+    height: 600px;
+    width: 100%;
+    background: url("../images/internet-safety-tips-img-23.jpg") no-repeat center center/cover;
+  }
