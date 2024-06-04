@@ -10,30 +10,31 @@
 </head>
 <body>
     <!-- featured section -->
-    <section class= "container">
+    <section class= "container" id="features-container">
         <h2>Featured</h2>
-        <div class="row" id="features-container">
-            <div class="col" id="blog-one">
+        <div class="row">
+            <div class="col m-3 feature-box" id="feature-one">
                 <a href="https://www.google.com/">
-                    <img src="assets/images/placeholder-image.jpg">
-                    <p id="blog-icon">Blog</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="feature-box-image"></div>
+                    <div id="blog-icon">Blog</div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
                 </a>
             </div>
-            <div class="col d-none d-md-block" id="blog-two">
-                <a href="https://www.google.com/">
-                    <img src="assets/images/placeholder-image.jpg">
-                    <p id="blog-icon">Blog</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </a>
-            </div>
-            <div class="col d-none d-lg-block" id="blog-three">
-                <a href="https://www.google.com/">
-                    <img src="assets/images/placeholder-image.jpg">
-                    <p id="blog-icon">Blog</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </a>
-            </div>
+            <div class="col m-3 d-none d-md-block flex-column feature-box">
+                <div class="d-none d-md-block" id="feature-two">
+                    <a href="https://www.google.com/">
+                        <div class="feature-box-image"></div>
+                        <div class="d-lg-inline-block" id="blog-icon">Blog</div>
+                        <h5 class="d-lg-inline-block"> 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                    </a>
+                </div>
+                <div class="d-none d-lg-block" id= "feature-three">
+                    <a href="https://www.google.com/">
+                        <div class="feature-box-image"></div>
+                        <div class="d-lg-inline-block"id="blog-icon">Blog</div>
+                        <h5 class="d-lg-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                    </a>
+                </div>
             </div>
         </div>    
     </section>
