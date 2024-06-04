@@ -1,3 +1,70 @@
+
+/* featured section */
+
+#features-container h2 {
+    color: #E4933A;
+    text-transform: uppercase;
+    border-bottom: 4px solid #E4933A;
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+#features-container a {
+    text-decoration: none;
+    color: #F5EFED;
+}
+
+.feature-box-image {
+    width: 100%;
+    height: 60%;
+    background: url(../images/placeholder-image.jpg) no-repeat center / cover;
+
+}
+
+#blog-icon {
+    border: 1px solid #F5EFED;
+    border-radius: 5px;
+    padding: 5px; 
+    width: fit-content;
+    margin: 10px;
+    color: #F5EFED;
+}
+
+.feature-box {
+    background-color: #E4933A;
+    border-radius: 10px;
+    height: 300px;
+    padding: 0;
+    border: 3px solid white;
+}
+
+#feature-two {
+    height: 100%;
+}
+
+#features-container h5 {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    #feature-two, 
+    #feature-three {
+        height: 50%;
+        font-size: 80%;
+    }
+
+    #feature-two h5, 
+    #feature-three h5 {
+        font-size: 100%;
+    }
+
+    #feature-one:hover,
+    #feature-two:hover,
+    #feature-three:hover {
+        background-color: #5C80BC;
+    }
+}
+
 /* ---------- General Styles ---------- */
 
 
@@ -29,6 +96,7 @@
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.png") no-repeat center center/cover;
+}
 
 /* ---------- Buttons ---------- */
 
@@ -43,3 +111,4 @@
     height: 600px;
     width: 100%;
     background: url("../images/internet-safety-tips-img-23.jpg") no-repeat center center/cover;
+  }
