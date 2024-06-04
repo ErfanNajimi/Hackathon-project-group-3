@@ -109,29 +109,36 @@ header {
     border: 0;
     width: 100%;
     background-color: #1a0001;
+    /* Over Ride Bootstrap Defaults */
+    --bs-navbar-hover-color: #ff5301;
+    --bs-navbar-toggler-icon-color: #ff5301; */
+   
+
     z-index: 1;  
 }
 
 .navbar .navbar-brand {
-    font-size: 600;
-    font-weight:  bold;
+        font-weight:  bold;
     color: #ffead0;
 }
 
 .nav-link {
-    font-size: 200;
     font-weight: bold;
     color: #ffead0;
 }
 
-.nav-link a:hover,
+navbar-toggler-icon {
+    color: #ffead0;
+}
+
+/* .nav-link a:hover,
 .nav-link a:active,
 .nav-link a:focus,
 .nav-link a:active:focus, {
     color: #ff5301;
     background-color: #df4929;
     border-color: #df4929;
-}
+} */
 
 
 
