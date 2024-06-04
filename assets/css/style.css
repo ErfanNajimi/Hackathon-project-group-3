@@ -1,10 +1,19 @@
 /* ---------- General Styles ---------- */
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 letter-spacing: 2px;
     color: #ffffff;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 5px;
+    color: #E09525
 }
 
 /* ---------- Colors ---------- */
@@ -44,7 +53,7 @@ letter-spacing: 2px;
     font-size: 500%;
     bottom: 10px;
     width: 200%;
-    min-height: 500px;
+    min-height: 545px;
     padding-top: 2px;
     padding-left: 10px;
     position: absolute;
