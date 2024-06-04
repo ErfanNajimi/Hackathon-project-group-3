@@ -1,10 +1,13 @@
+body{
+    background-color:#F5EFED
+}
 
 /* featured section */
 
 #features-container h2 {
-    color: #E4933A;
+    color: #5A0A01;
     text-transform: uppercase;
-    border-bottom: 4px solid #E4933A;
+    border-bottom: 4px solid #5A0A01;
     width: 40%;
     margin-bottom: 25px;
 }
@@ -31,8 +34,8 @@
 }
 
 .feature-box {
-    background-color: #E4933A;
-    border-radius: 10px;
+    background-color: #5A0A01;
+    /*border-radius: 10px;*/
     height: 300px;
     padding: 0;
     border: 3px solid white;
@@ -120,7 +123,8 @@ header {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.png") no-repeat center center/cover;
+    background: url("../images/hero-2.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 /* ---------- Buttons ---------- */
