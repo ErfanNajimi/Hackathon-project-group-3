@@ -1,5 +1,5 @@
 body{
-    background-color:#F5EFED
+    background-color:#ffead0;
 }
 
 /* featured section */
@@ -91,7 +91,7 @@ h1 {
 /* ---------- Nav Bar ---------- */
 
 header {
-    background-color: #e4933a;
+    background-color: #1a0001;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -108,15 +108,31 @@ header {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #e4933a;
+    background-color: #1a0001;
     z-index: 1;  
 }
 
 .navbar .navbar-brand {
-    font-weight: 600;
-    font-weight: bold;
-    color: #363732;
+    font-size: 600;
+    font-weight:  bold;
+    color: #ffead0;
 }
+
+.nav-link {
+    font-size: 200;
+    font-weight: bold;
+    color: #ffead0;
+}
+
+.nav-link a:hover,
+.nav-link a:active,
+.nav-link a:focus,
+.nav-link a:active:focus, {
+    color: #ff5301;
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
 
 
 /* ----------Hero Image -------*/
