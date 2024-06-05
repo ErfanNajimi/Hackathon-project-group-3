@@ -173,12 +173,13 @@ navbar-toggler-icon {
 }
 
 /* ---------- Resources ---------- */
-#resources {
+#resources-video-container {
     width: 90%;
     margin: 7em auto 1em;
 }
 
-#resources  h2 {
+
+#resources-video-container  h2 {
     text-align: center;
     font-size: 280%;
     text-transform: capitalize;
@@ -203,6 +204,19 @@ navbar-toggler-icon {
     margin-left: 5em;
 }
 
+#resources-text-container h2 {
+    color: #5A0A01;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5A0A01;
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+#resources-text-container a {
+    text-decoration: none;
+    color: #F5EFED;
+}
+
 #resources-text-container {
     padding-top: 4rem;
 }
@@ -219,6 +233,35 @@ navbar-toggler-icon {
     width: 50%;
     height: 50%;
     background: url(../images/uk_gov.png) no-repeat center / cover;
+}
+
+#resource-two {
+    height: 100%;
+}
+
+#resources-text-container h5 {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    /* feature section */
+
+    #resource-two, 
+    #resource-three {
+        height: 50%;
+        font-size: 80%;
+    }
+
+    #resource-two h5, 
+    #resource-three h5 {
+        font-size: 100%;
+    }
+
+    #resource-one:hover,
+    #resource-two:hover,
+    #resource-three:hover {
+        background-color: #5C80BC;
+    }
 }
 
 /* ---------- Buttons ---------- */
