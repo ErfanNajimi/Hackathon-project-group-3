@@ -160,7 +160,6 @@ navbar-toggler-icon {
     border-color: #df4929;
 } */
 
-
 >>>>>>> a774e9
 
 /* ----------Hero Image -------*/
@@ -176,7 +175,6 @@ navbar-toggler-icon {
 }
 >>>>>>> a774e9
 
-
 #cover-text {
     font-size: 500%;
     bottom: 10px;
@@ -187,7 +185,6 @@ navbar-toggler-icon {
     position: absolute;
 }
 
-
 /* ----------- Intro text --------- */
 
 .intro-text {
@@ -195,7 +192,6 @@ navbar-toggler-icon {
     color: #BC7F15;
     padding-top: 30px;    
 }
-
 
 /* ---------- Footer ---------- */
 #social-networks {
@@ -220,5 +216,3 @@ navbar-toggler-icon {
     width: 100%;
     background: url("../images/internet-safety-tips-img-23.jpg") no-repeat center center/cover;
 }
-
->>>>>>> a774e9
