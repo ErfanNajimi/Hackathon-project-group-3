@@ -1,11 +1,94 @@
+body{
+    background-color:#ffead0;
+}
+
+/* featured section */
+
+#features-container h2 {
+    color: #5A0A01;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5A0A01;
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+#features-container a {
+    text-decoration: none;
+    color: #F5EFED;
+}
+
+.feature-box-image {
+    width: 100%;
+    height: 60%;
+    background: url(../images/guide-features.jpg) no-repeat center / cover;
+
+}
+
+#blog-icon {
+    border: 1px solid #F5EFED;
+    border-radius: 5px;
+    padding: 5px; 
+    width: fit-content;
+    margin: 10px;
+    color: #F5EFED;
+}
+
+.feature-box {
+    background-color: #5A0A01;
+    /*border-radius: 10px;*/
+    height: 300px;
+    padding: 0;
+    border: 3px solid white;
+}
+
+#feature-two {
+    height: 100%;
+    padding-top: 10px;
+}
+
+#feature-three {
+    height: 80%
+}
+
+#features-container h5 {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    #feature-two, 
+    #feature-three {
+        height: 50%;
+        font-size: 80%;
+    }
+
+    #feature-two h5, 
+    #feature-three h5,
+    #feature-four h5,
+    #feature-five h5,
+    #feature-six h5;
+    #feature-seven h5,
+    feature-eight h5; {
+        font-size: 100%;
+    }
+
+    #feature-one:hover,
+    #feature-two:hover,
+    #feature-three:hover {
+        background-color: #5C80BC;
+    }
+}
+
+
+
 
 /* ---------- General Styles ---------- */
 
 h1 {
     font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
+text-align: center;
 letter-spacing: 2px;
-    color: #ffffff;
+    color: #815614;
 }
 
 h2 {
@@ -15,7 +98,7 @@ h2 {
     color: #000000
 }
 
-h3 {
+h3, h5 {
     font-family: 'Roboto', sans-serif;
     font-size: large;
     text-align: center;
