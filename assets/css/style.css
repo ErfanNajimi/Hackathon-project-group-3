@@ -46,6 +46,8 @@
 }
 
 @media screen and (min-width: 992px) {
+    /* feature section */
+
     #feature-two, 
     #feature-three {
         height: 50%;
@@ -269,3 +271,117 @@ footer{
     background: url("../images/internet-safety-tips-img-23.jpg") no-repeat center center/cover;
 }
 
+/* Blog Page */
+
+.article-blog {
+    margin-top:40px;
+    padding: 20px;
+    color: #5A0A01;
+    font-size: 120%;
+
+}
+.article-header {
+    background-color: transparent;
+    position: static;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.article-heading {
+    font-size: 140%;
+    
+}
+
+.article-blog span {
+    display: block;
+}
+
+.article-main {
+    font-size: 100%;
+}
+
+.article-images {
+    width: 100%;
+}
+
+.cormorant-font {
+    font-family: "Cormorant", serif;
+}
+
+.article-footer {
+    margin-top: 40px;
+}
+
+.blog-nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+
+.prv-nav {
+    border-right: 1px solid #5A0A01;
+}
+
+.nxt-nav {
+    border-left: 1px solid #5A0A01;
+}
+
+.article-footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media screen and (min-width: 768px) {
+    /* blog section */
+    
+    .article-blog {
+        margin: 56px 20% 0;
+    
+    }
+
+    .article-heading {
+        font-size: 200%;
+        
+    }
+    .article-header,
+    .article-main {
+        font-size: 110%;
+    
+    }
+
+    .article-blog span {
+        display: inline-block;
+    }
+
+    .article-blog h3 {
+        font-size: 130%;
+    }
+
+    .blog-nav {
+        font-size: 130%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* blog section */
+
+    .article-heading {
+        font-size: 250%;
+        
+    }
+    .article-header,
+    .article-main {
+        font-size: 140%;
+    
+    }
+
+    .article-footer a:hover {
+        color: #ff5301;
+        font-size: 120%;
+    }
+
+}
