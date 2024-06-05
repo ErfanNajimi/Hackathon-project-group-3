@@ -1,3 +1,19 @@
+/* Google Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Font Info 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.cormorant-<uniquifier> {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
 /* featured section */
 
 #features-container h2 {
@@ -67,21 +83,7 @@
 }
 
 /* ---------- General Styles ---------- */
-/* Google Font Import */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
-
-/* Font Info 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
-
-.cormorant-<uniquifier> {
-  font-family: "Cormorant", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-*/
 
 body {
     min-height: 100vh; 
@@ -178,14 +180,6 @@ navbar-toggler-icon {
     margin: 7em auto 1em;
 }
 
-/* #resources-video-container  h2 {
-    text-align: center;
-    font-size: 280%;
-    text-transform: capitalize;
-    font-weight: bold;
-    margin-bottom: 10px;
-}*/
-
 .iframe-container{
     position: relative;
     width: 100%;
@@ -200,7 +194,7 @@ navbar-toggler-icon {
 }
 .iframe-container > h5 {
     text-align: justify;
-    margin-left: 5em;
+    margin-left: 3em;
 }
 
 #resources-video-container h2,
@@ -221,6 +215,14 @@ navbar-toggler-icon {
     padding-top: 4rem;
 }
 
+#resource-one h5 {
+    font-size: 90%;
+}
+
+#resource-one p {
+    font-size: 80%;
+}
+
 .resources-box {
     background-color: #1a0001;
     /*border-radius: 10px;*/
@@ -238,13 +240,31 @@ navbar-toggler-icon {
 .resource-box-image-2 {
     width: 50%;
     height: 50%;
-    background: url(../images/age-uk.png) no-repeat center / cover;
+    background: url(../images/bristol_send.png) no-repeat center / cover;
 }
 
 .resource-box-image-3 {
     width: 50%;
     height: 50%;
     background: url(../images/CEOPBlueTagline.png) no-repeat center / cover;
+}
+
+.resource-box-image-4 {
+    width: 50%;
+    height: 50%;
+    background: url(../images/age-uk.png) no-repeat center / cover;
+}
+
+.resource-box-image-5 {
+    width: 50%;
+    height: 50%;
+    background: url(../images/StaySafe-Updated-2023.webp) no-repeat center / cover;
+}
+
+.resource-box-image-6 {
+    width: 50%;
+    height: 50%;
+    background: url(../images/Good_Things_Found.png) no-repeat center / cover;
 }
 
 #resource-two {
@@ -257,6 +277,8 @@ navbar-toggler-icon {
 
 @media screen and (min-width: 992px) {
     /* resources section */
+
+
 
     #resource-two, 
     #resource-three {
