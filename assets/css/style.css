@@ -336,6 +336,22 @@ footer{
     flex-direction: column;
 }
 
+.category-icon {
+    width: fit-content;
+    height: 1.5em;
+    background-color: #e84610;
+    border-radius: 0.5em;
+    color: #ffead0;
+    font-size: 80%;
+    text-align: center;
+    padding: 0 0.2em;
+    text-transform: uppercase;
+}
+
+.article-blog a {
+    text-decoration: none;
+}
+
 .article-heading {
     font-size: 140%;
     
@@ -350,7 +366,12 @@ footer{
 }
 
 .article-images {
-    width: 100%;
+    object-fit: cover;
+    height:inherit;
+}
+
+.carousel-image-container {
+    height: 500px;
 }
 
 .cormorant-font {
@@ -421,10 +442,16 @@ footer{
         font-size: 250%;
         
     }
+
     .article-header,
     .article-main {
         font-size: 140%;
     
+    }
+
+    .category-icon:hover {
+        background-color: #5A0A01;
+        color:#ffead0;
     }
 
     .article-footer a:hover {
