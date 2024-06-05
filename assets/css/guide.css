@@ -1,3 +1,4 @@
+
 /* ---------- General Styles ---------- */
 
 h1, h2 {
@@ -9,7 +10,7 @@ letter-spacing: 2px;
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: medium;
+    font-size: large;
     text-align: center;
     letter-spacing: 2px;
     padding-left: 5px;
@@ -36,14 +37,14 @@ h3 {
     color: #000;
 }
 
-/* ---------- Buttons ----------*/
 
-/* ---------- Guide Image ---------- */
 #guide-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background: url("../images/internet-safety-tips-img-23.jpg") no-repeat center center/cover;
+    background: url("../images/guide-image.jpg") no-repeat center center/cover;
     position: relative;
+
+/* ---------- Buttons ----------*/
 
 /* ----------Hero Image -------*/
 #hero {
@@ -51,6 +52,7 @@ h3 {
     width: 100%;
     background: url("../images/hero-image.png") no-repeat center center/cover;
     position: relative;
+
 
 #cover-text {
     font-size: 500%;
@@ -73,4 +75,6 @@ h3 {
 
 
 /* ---------- Footer ---------- */
+
+
 
