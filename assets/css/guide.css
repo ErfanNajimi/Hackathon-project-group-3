@@ -1,11 +1,18 @@
 
 /* ---------- General Styles ---------- */
 
-h1, h2 {
+h1 {
     font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 letter-spacing: 2px;
     color: #ffffff;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    text-align: justify;
+    color: #000000
 }
 
 h3 {
@@ -72,6 +79,11 @@ h3 {
     color: #BC7F15;
     padding-top: 30px;    
 }
+
+/* ---------- Tips Section ------------ */
+
+
+
 
 
 /* ---------- Footer ---------- */
