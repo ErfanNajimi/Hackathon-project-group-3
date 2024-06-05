@@ -18,9 +18,7 @@ h3 {
 
 /* ---------- Colors ---------- */
 
-
 /* ---------- Nav Bar ---------- */
-
 
 
 .navbar {
@@ -40,14 +38,12 @@ h3 {
 
 /* ---------- Buttons ----------*/
 
-
 /* ----------Hero Image -------*/
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.png") no-repeat center center/cover;
     position: relative;
-
 
 #cover-text {
     font-size: 500%;
@@ -68,13 +64,12 @@ h3 {
 }
 
 
-
 /* ---------- Footer ---------- */
 
 
-
 /* ---------- Guide Section ---------- */
-#guide {
-    height: 600px;
+#guide-image {
+    height: 400px;
     width: 100%;
     background: url("../images/internet-safety-tips-img-23.jpg") no-repeat center center/cover;
+    position: relative;
