@@ -183,13 +183,14 @@ navbar-toggler-icon {
 .article-blog {
     margin-top:40px;
     padding: 20px;
+    color: #5A0A01;
+    font-size: 120%;
 
 }
 .article-header {
     background-color: transparent;
     position: static;
     box-shadow: none;
-    color: #5A0A01;
     padding: 0;
     flex-direction: column;
 }
@@ -204,9 +205,7 @@ navbar-toggler-icon {
 }
 
 .article-main {
-    color: #5A0A01;
     font-size: 100%;
-
 }
 
 .article-images {
@@ -215,9 +214,34 @@ navbar-toggler-icon {
 
 .cormorant-font {
     font-family: "Cormorant", serif;
-    font-size: 120%;
 }
-  
+
+.article-footer {
+    margin-top: 40px;
+}
+
+.blog-nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+
+.prv-nav {
+    border-right: 1px solid #5A0A01;
+}
+
+.nxt-nav {
+    border-left: 1px solid #5A0A01;
+}
+
+.article-footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 @media screen and (min-width: 768px) {
     /* blog section */
     
@@ -243,6 +267,10 @@ navbar-toggler-icon {
     .article-blog h3 {
         font-size: 130%;
     }
+
+    .blog-nav {
+        font-size: 130%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -256,6 +284,11 @@ navbar-toggler-icon {
     .article-main {
         font-size: 140%;
     
+    }
+
+    .article-footer a:hover {
+        color: #ff5301;
+        font-size: 120%;
     }
 
 }
