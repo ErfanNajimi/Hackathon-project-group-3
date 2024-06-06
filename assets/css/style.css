@@ -26,6 +26,18 @@
     background: url(../images/password.jpeg) no-repeat center / cover;
 }
 
+.feature-image-two {
+    width: 100%;
+    height: 60%;
+    background: url(../images/home-network.jpg) no-repeat center / cover;
+}
+
+.feature-image-three {
+    width: 100%;
+    height: 60%;
+    background: url(../images/educate.jpeg) no-repeat center / cover;
+}
+
 #blog-icon {
     border: 1px solid #F5EFED;
     border-radius: 5px;
