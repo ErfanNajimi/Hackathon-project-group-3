@@ -54,7 +54,7 @@
     background: url(../images/educate.jpeg) no-repeat center / cover;
 }
 
-#blog-icon {
+.blog-icon {
     border: 1px solid #F5EFED;
     border-radius: 5px;
     padding: 5px; 
