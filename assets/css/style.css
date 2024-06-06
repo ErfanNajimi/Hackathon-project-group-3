@@ -454,6 +454,22 @@ footer{
     background: url("../images/child-safety.jpeg") no-repeat center / cover;
 }
 
+@media screen and (min-width: 768px) {
+    .guide-heading {
+        font-size: 4em;
+        margin: 100px 20% 0
+    }
+
+}
+
+/* Newsletter page */
+
+#newsletter-main {
+    text-align:center;
+    color:#5A0A01;
+    margin-bottom: 3%;
+}
+
 /* Blog Page */
 
 .article-blog {
