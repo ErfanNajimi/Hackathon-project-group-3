@@ -123,9 +123,13 @@ h1 {
 }
 
 .general-sub {
-    font-family: "", sans-serif;
+    font-family: "Cormorant", sans-serif;
     font-weight: 300;
     color: #fafafa;
+}
+
+.hidden {
+    display: none;
 }
 
 
@@ -591,7 +595,7 @@ footer{
     width:80%; 
     height:inherit; 
     position:absolute; 
-    z-index: index 2; 
+    z-index: 2; 
     bottom:0; 
     top:20%;
     left:10%;
