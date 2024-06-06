@@ -1,114 +1,148 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cyber Safety - Staying Safe Online
 
-Welcome Erfan Najimi,
+## Project overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Cyber security is something everyone who uses the internet needs to think about and find the information they need to protect themselves and loved ones from harm. This website is an attractive hub of awareness, via secure information, handy tips, external resources and blog posts suitable for all ages. 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-## Gitpod Reminders
+## User Experience Design (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The site is of minimalist and consistent design over all pages, providing the user with ease of use, along with information regarding cyber safety, extra resources and a choice to subscribe to the Cyber Safety newsletter.
 
-`python3 -m http.server`
+Through the application of agile methodologies, we started out with wireframes and discussed ideas, before we settled on one style and expanded upon that with frames for mobile, tablet and desktop.
 
-A blue button should appear to click: _Make Public_,
+[screenshots] 
 
-Another blue button should appear to click: _Open Browser_.
+User stories were created and put into our Product Backlog Kanban board on Github, so we could monitor our progress and be clear about our assignments.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+[Include some user stories?]
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Features 
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-__Navigation bar__
 
-To log into the Heroku toolbelt CLI:
+At the top of every page within the site, the full responsive navigation bar includes the Cyber Safety logo and links to all pages on the site. Namely ‘Home’, ‘Guide’, ‘Resources’, ‘Newsletter’ and ‘Blog’. This provides ease of navigation for the user and a pleasing consistency in the design of the site.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[screenshot]
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- __The landing page image__
 
-------
+  The landing page image attacts the user with it’s stunning nature and invites them to explore the site via the images warming colour glow.
+  
+[image]
 
-## Release History
+-__Featured blog posts__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Also on the Home page are attractively boxed links to blog posts. The amount changing with  sizes of screen. One for mobiles, two for tablets and three for desktops.
 
-**May 28 2024:** Fix Mongo and Links installs
+[screenshot]
 
-**April 26 2024:** Update node version to 16
+-__The footer__
 
-**September 20 2023:** Update Python version to 3.9.17.
+The footer contains links to the social media platforms for Cyber Safety and open in a new tab, allowing easy navigation for the user.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[screenshot]
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Guide section__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+This section allows the user to gain information on six topics within the scope of cyber safety, which is presented as individual top five tips underneath each relevant image.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+[screenshot]
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __Resouces section__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+This section includes embedded educational videos, along with links to chosen external sites to help the user find extra information should they need. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+[screenshot]
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- __Newsletter section__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+This section includes a ‘call to battle’ image and an email sign up input field to afford the user a choice of keeping up with the latest information from Cyber Security.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[screenshot]
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Upon subscribing, the user is taken to a ‘Thank you, be safe’ page.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[screenshot]
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-__Blog section__
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+This section is accessed via the dropdown menu on the navigation bar, providing the user a choice of most recent blog post or all blog posts. In this instance created with the help of Chat GPT
 
-------
+[screenshot]
 
-## FAQ about the uptime script
+### Features Left to Implement
 
-**Why have you added this script?**
+•	Regularly updated news section of latest related stories/guides
+•	Training course feature added, rewarding users who pass with a certificate
+•	Search bar for user convenience in finding the information they need
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Testing 
 
-**How will this affect me?**
+All features above have been tested on the deployed website. Navigation bars are working as intended, links to social media websites are working. The form is working as it should, and buttons perform the given actions.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Lighthouse test when finalised
+[screenshots]
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> code institute notes <<<<<<<<<<<<<<<<<<<<<<< To be removed <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-**So….?**
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-**Can I opt out?**
+### Validator Testing 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> code institute notes <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Unfixed Bugs
 
-**Anything more?**
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment
 
----
+This project was deployed on GitHub. Below are the steps we followed to be able to deploy the website:
 
-Happy coding!
+1.	In the GitHub repository, navigate to the Settings tab.
+2.	Scroll down until you see GitHub pages.
+3.	From the source section drop-down menu, select the main branch.
+4.	Once the main branch has been selected hit the save button.
+5.	Finally, when the page is refreshed there will be a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: https://erfannajimi.github.io/hackathon-project-group-3/index.html
+ 
+## Credits 
+
+For royalty free images used:
+Freepik.com
+
+For blog content:
+Chat GPT
+
+For footer icons:
+Font Awesome
+
+For coding help:
+Slack community
+w3schools.com
+
+For colour palette:
+Coolers.co
+Video content:
+YouTube
+
+[plus…]
+ 
