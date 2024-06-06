@@ -210,6 +210,22 @@ input[type=email]:focus {
     margin: 7em auto 1em;
 }
 
+#resources-video-title {
+    width: 90%;
+    margin: 7em auto 1em;
+    font-family: "Cormorant", serif;
+}
+
+.resources-icon {
+    border: 1px solid #F5EFED;
+    border-radius: 5px;
+    padding: 5px; 
+    width: fit-content;
+    margin: 10px;
+    color: #F5EFED;
+}
+
+
 .iframe-container{
     position: relative;
     width: 100%;
@@ -217,6 +233,7 @@ input[type=email]:focus {
     padding-top: 2rem;
     padding-left: 20%;
     padding-bottom: 25%;
+    border: 0px;
 }
 .responsive-iframe {
     aspect-ratio: 16 / 9;
@@ -225,6 +242,15 @@ input[type=email]:focus {
 .iframe-container > h5 {
     text-align: justify;
     margin-left: 3em;
+}
+
+.resources-text-container {
+    padding-top: 4rem;
+}
+
+.resources-text-container a {
+    text-decoration: none;
+    color: #F5EFED;
 }
 
 #resources-video-container h2,
@@ -236,20 +262,11 @@ input[type=email]:focus {
     margin-bottom: 25px;
 }
 
-#resources-text-container a {
-    text-decoration: none;
-    color: #F5EFED;
-}
-
-#resources-text-container {
-    padding-top: 4rem;
-}
-
-#resource-one h5 {
+.resource-one h5 {
     font-size: 90%;
 }
 
-#resource-one p {
+.resource-one p {
     font-size: 80%;
 }
 
@@ -297,7 +314,7 @@ input[type=email]:focus {
     background: url(../images/Good_Things_Found.png) no-repeat center / cover;
 }
 
-#resource-two {
+.resource-two {
     height: 100%;
 }
 
@@ -308,22 +325,20 @@ input[type=email]:focus {
 @media screen and (min-width: 992px) {
     /* resources section */
 
-
-
-    #resource-two, 
-    #resource-three {
+    .resource-two, 
+    .resource-three {
         height: 50%;
         font-size: 80%;
     }
 
-    #resource-two h5, 
-    #resource-three h5 {
+    .resource-two h5, 
+    .resource-three h5 {
         font-size: 100%;
     }
 
-    #resource-one:hover,
-    #resource-two:hover,
-    #resource-three:hover {
+    .resource-one:hover,
+    .resource-two:hover,
+    .resource-three:hover {
         background-color: rgba(216,219,226,0.1);
     }
 }
