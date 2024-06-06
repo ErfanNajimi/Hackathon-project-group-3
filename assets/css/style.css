@@ -411,9 +411,22 @@ footer{
     margin-top: 5%;
 }
 
+.guide-heading {
+    color:#5A0A01;
+    font-size: 4em;
+    margin: 100px 20% 0
+}
+
+.guide-list {
+    color:#ffead0;
+    margin-top: 5%;
+}
+
 #guide-image {
     height: 600px;
     width: 100%;
+    background: url("../images/guide-image.jpg") no-repeat center / cover;
+    margin-top: 10px;
     background: url("../images/guide-image.jpg") no-repeat center / cover;
     margin-top: 10px;
 }
@@ -421,11 +434,13 @@ footer{
 .password-protect-image {
     width: 100%;
     height: 20%;
+    height: 20%;
     background: url("../images/protect-password2.jpeg") no-repeat center / cover;
 }
 
 .malware-image {
     width: 100%;
+    height: 20%;
     height: 20%;
     background: url("../images/malware2.jpeg") no-repeat center / cover;
 }
@@ -433,11 +448,13 @@ footer{
 .cyberbullying-image {
     width: 100%;
     height: 20%;
+    height: 20%;
     background: url("../images/cyberbullying.jpeg") no-repeat center / cover;
 }
 
 .phishing-image {
     width: 100%;
+    height: 20%;
     height: 20%;
     background: url("../images/phishing-account.jpg") no-repeat center / cover;
 }
@@ -445,11 +462,13 @@ footer{
 .social-media-image {
     width: 100%;
     height: 20%;
+    height: 20%;
     background: url("../images/social-media.jpeg") no-repeat center / cover;
 }
 
 .child-safety-image {
     width: 100%;
+    height: 20%;
     height: 20%;
     background: url("../images/child-safety.jpeg") no-repeat center / cover;
 }
@@ -460,14 +479,6 @@ footer{
         margin: 100px 20% 0
     }
 
-}
-
-/* Newsletter page */
-
-#newsletter-main {
-    text-align:center;
-    color:#5A0A01;
-    margin-bottom: 3%;
 }
 
 /* Blog Page */
