@@ -123,9 +123,13 @@ h1 {
 }
 
 .general-sub {
-    font-family: "", sans-serif;
+    font-family: "Cormorant", sans-serif;
     font-weight: 300;
     color: #fafafa;
+}
+
+.hidden {
+    display: none;
 }
 
 
